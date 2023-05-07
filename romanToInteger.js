@@ -25,8 +25,8 @@ function romanToInteger(romanStr) {
 }
 
 
-console.log(romanToInteger("XL"));
-console.log(romanToInteger("XVIII"));
+console.log(romanToInteger("XLIIII"));
+// console.log(romanToInteger("XVIII"));
 
 
 
