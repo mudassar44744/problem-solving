@@ -1,7 +1,7 @@
 // program to generate fibonacci series up to n terms
 
-fibonacciSeries(10);
-fibonacci(8);
+fibonacciSeries(7);
+// fibonacci(8);
 
 function fibonacciSeries(n) {
     let a = 0;
