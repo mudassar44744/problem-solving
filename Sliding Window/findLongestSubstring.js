@@ -10,7 +10,7 @@ findLongestSubstring('thisisawesome') // 6
 // findLongestSubstring('thisishowwedoit') // 6
 // Time Complexity - O(n)
 
-
+console.log(findLongestSubstring("abcabcbb"));
 
 function findLongestSubstring(str) {
     let longest = 0;
