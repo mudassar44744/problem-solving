@@ -20,7 +20,7 @@ var findAnagrams = function(s, p) {
     
       if(count == p.length) res.push(l);
  
-      if(r -l == p.length) {
+      if(r - l == p.length) {
           if(map[s[l]] >= 0) count--;
           map[s[l]]++;
           l++
