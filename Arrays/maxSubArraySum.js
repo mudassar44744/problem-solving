@@ -33,25 +33,25 @@ maxSubArraySum1([100,200,300,400], 2) // 700
 // Space Complexity - O(1)
 
 
-function maxSubArraySum1(arr, num) {
+// function maxSubArraySum1(arr, num) {
 
-  debugger;
+//   debugger;
 
-  let maxSum = 0;
-  let tempSum = 0;
+//   let maxSum = 0;
+//   let tempSum = 0;
 
-  for(let i = 0; i < num; i++) {
-    maxSum += arr[i];
-  }
+//   for(let i = 0; i < num; i++) {
+//     maxSum += arr[i];
+//   }
 
-  tempSum = maxSum;
+//   tempSum = maxSum;
 
-  for(let i = num; i < arr.length; i++) {
-    tempSum = maxSum - arr[i - num] + arr[i];
-    maxSum = Math.max(maxSum,tempSum);
-  }
+//   for(let i = num; i < arr.length; i++) {
+//     tempSum = maxSum - arr[i - num] + arr[i];
+//     maxSum = Math.max(maxSum,tempSum);
+//   }
 
-  return maxSum;
+//   return maxSum;
 
 
-}
+// }
